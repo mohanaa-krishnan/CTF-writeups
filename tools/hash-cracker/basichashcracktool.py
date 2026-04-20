@@ -40,6 +40,6 @@ def crack_hash(target_hash, dict_file):
 
 # Run
 target = input("Enter password: ")
-algorithm=imput("enter algorithm:")
+algorithm=input("enter algorithm:")
 target=hash_pw(target,algorithm)
 crack_hash(target, "dictionary.txt")
